@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghana</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+            position: sticky;
+            overflow: hidden;
+            top: 0;
+            font-size: larger;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            text-decoration: none;
+        }
+
+h1{
+    text-align: center;
+}
+#DemoInfo{
+    text-align: left;
+    padding: 20px;
+
+}
+
+#pyramid{
+    padding: 50px;
+    justify-content: right;
+    width: 450px;
+    height: 350px;
+}
+
+#Demographics{
+    display: flex;
+}
+
+#Language{
+    text-align: left;
+    padding: 20px;
+}
+
+#english{
+    text-align: left;
+    width: 450px;
+    height: 450px;
+    padding: 100px;
+}
+
+#cultureInfo{
+    text-align: left;
+    padding: 20px;
+}
+
+#culture{
+    display: flex;
+}
+
+#cultureQ{
+    text-align: left;
+    padding: 20px;
+}
+
+#Religion{
+    text-align: left;
+    padding: 20px;
+}
+
+#Politics{
+    display: flex;
+}
+
+#PoliticsPic{
+    padding-left: 50px;
+}
+
+#PoliticalInfo{
+
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#sources{
+    text-align: left;
+}
+
+#Christian{
+    text-align: center;
+    padding: 40px;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+
+    transition: all 5s;
+}
+
+#GhanaImg{
+    width: 100vw;
+    height: 500px;
+}
+
+@keyframes h1Animate {
+    from {
+        opacity: 0.5;
+        transform: translateX(-1000px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
+
+@keyframes right{
+    from{
+        opacity: 0;
+        transform: translateX(10000px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+
+nav a:hover:before{
+            transform: scaleX(1);
+        }
+
+#Demographics{
+    animation: h1Animate 3s ease-in;
+}
+
+.language{
+    display: flex;
+}
+
+#LanguagePic{
+    width: 500px;
+    padding: 100px;
+}
+
+#englishinfo{
+    text-indent: 50px;
+}
+
+#ChristianInfo{
+    display: flex;
+}
+
+#ChristianPic{
+    padding-top: 150px;
+    padding-left: 80px;
+}
+
+#PoliticalQ{
+    text-align: left;
+}
+
+
+    </style>
+
+</head>
+
+<body>
+    <nav id="nav">
+        <a href="#Demographics">Demographics</a>
+        <a href="#Language">Language</a>
+        <a href="#culture">Culture</a>
+        <a href="#Religion">Religion</a>
+        <a href="#Politics">Politics</a>
+
+    </nav>
+
+    <h1>Ghana</h1>
+    &nbsp;
+    <img id="GhanaImg" src="Ghana.jpg" alt="">
+    &nbsp;
+
+    <h1>Demographics</h1>
+    <div id="Demographics">
+        <div id="DemoInfo">
+            <h3>Total Population: 33.8 Million</h3>
+            &nbsp;
+            <h3>Dependancy Ratio: 66.7</h3>
+            &nbsp;
+            <p>
+                Ethnicities:
+                Akan 45.7%, Mole-Dagbani 18.5%, Ewe 12.8%, Ga-Dangme 7.1%, Gurma 6.4%,
+            </p>
+            <p> 
+                Guan 3.2%, Grusi 2.7%, Mande 2%, other 1.6% (2021 est.)
+            </p>
+            &nbsp;
+            <h4>With a 2.19% Population Growth, the population should grow to 50 million by 2050</h4>
+
+            <h4>Ghana is a stage 2 country in the DTM, as there is a high birth rate and decreasing death rate.</h4>
+        </div>
+
+        <div id="pyramid">
+            <img id="pyramid" class="hidden" src="GH_popgraph2023.jpg" alt="">
+        </div>
+    </div>
+    &nbsp;
+    <h1>Language</h1>
+    <div id="Language">
+        <h3>Languages and Percentages of Speakers</h3>
+        <p>
+            Asante 16%, Ewe 14%, Fante 11.6%, Boron (Brong) 4.9%, Dagomba 4.4%, Dangme 4.2%, Dagarte (Dagaba) 3.9%, Kokomba 3.5%, Akyem 3.2%, Ga 3.1%, other 31.2%
+        </p>
+        &nbsp;
+
+        <div class="language">
+            <div id="english">
+                <h1>Official Language: English</h1>
+                &nbsp;
+                <div id="englishinfo">
+                    <h4>Language Famly:Indo European</h4>
+                    <h4>Language Branch: West Germanic</h4>
+                    <h4>Language Group: West Germanic</h4>
+                    <h4>Origin of Language: England</h4>
+                    <h4>Diffusion of Language: Relocation</h4>
+                </div>
+            </div>
+    
+            <div>
+                <img class="hidden" id="LanguagePic" src="Language.webp" alt="">
+            </div>
+        </div>
+    <h3>Language is a centripital force, as people unify together easier due to little miscommunication.</h3>
+    &nbsp;
+    <h3>Language can be seen in a cultural landscape by the traditions they practice, and the way people treat and interact with their enviroment.</h3>
+    </div>
+    &nbsp;
+
+    <h1>Culture </h1>
+    <div id="culture">
+        <div id="cultureInfo">
+            <h3>Aspects of Folk Culture: </h3>
+            <p>Traditional Festivals, Storytelling, and Indigenous Arts</p>
+        <h3>Aspects Of Pop Culture: </h3>
+        <p>Moon dancing, Music</p>
+        &nbsp;
+        <h4>The migration after the fall of the Ghana Empire diffused parts of the Empire's culture throughout West Africa</h4>
+        </div>
+        <div id="culturePic">
+            <img class="hidden" src="Culture.jfif" alt="">
+        </div>
+    </div>
+        &nbsp;
+        <div id-="cultureQ">
+            <h4>Popular culture impacts folk culture by changing the culture.  As the country becomes more modernized, the culture and traditions slowly lose their original value.
+            </h4>
+            <h4>Parts of original culture, such as language, can become forgotten.</h4>
+        </div>
+
+    <h1>Religion</h1>
+    &nbsp;
+    <div id="Religion">
+        <h3>Religion and its Percentages:</h3>
+        <p>Christian 71.3% Pentecostal/Charismatic 31.6%, Protestant
+            17.4%, Catholic 10%, other 12.3%, Muslim 19.9%,
+            traditionalist 3.2%, other 4.5%, none 1.1%
+        </p>
+        <div id="ChristianInfo">
+            <div id="Christian">
+                <h1>Most Prominent Religion:</h1>
+                <h2>Christianity</h2>
+                &nbsp;
+                <h3>Origin of Religion:</h3>
+                <h4>Started based of the beliefs of Ancient Judaism and culture of the Roman Empire</h4>
+                &nbsp;
+                <h3>Diffusion of Religion:</h3>
+                <h4>Expansion: Stimulus, as there are many forms of Christianity</h4>
+                &nbsp;
+            </div>
+
+            <div id="ChristianPic">
+                <img class="hidden" src="Christianity.jfif" alt="">
+            </div>
+        </div>
+        <h4>Religion would be a centripital force, as people with the same religion can come together with their beliefs. 
+        People can persuade others to believe their religion, bringing more people in.</h4>
+        &nbsp;
+        <h4>Religion changes your lifestyle because with religion, typically you devote your life to a higher power, which can change the way you view your life, and how you see life in general, changing your lifestyle.</h4>
+        
+    </div>
+    &nbsp;
+    <h1>Politics</h1>
+    <div id="Politics">
+        <div id="PoliticalInfo">
+            <h3>Type of Political Organization:</h3>   
+            <p>Presidential Republic</p>
+            &nbsp;
+           <h3>Former Colonial Control:</h3> 
+           <p>Under Britian Control until 1957</p>
+           &nbsp;
+           <h3>Date Country gained Statehood</h3>
+           <p>6 March 1957 (from the UK)</p>
+           &nbsp;
+           <h3>Global Affiliations:</h3>  
+           <p>African Union, United Nations, World trade Organization, etc.</p>
+           &nbsp;
+           <h3>Current Political Leader:</h3> 
+           <p>Nana Akufo Addo</p>
+        </div>
+
+
+       <div id="PoliticsPic">
+        <img class="hidden" src="Nana-Akufo-Addo.jpeg" alt="">
+        <h6>Nana Akufo Addo</h6>
+       </div>
+    </div>
+    <div id="PoliticalQ">
+        <h4>The Ghana Goverment is stable, as it has a strong democracy and well kept peace in the country.</h4>
+        &nbsp;
+        <h4>On October 6th, 2023, Ghana stated that the inflation dropped to 40.1 percent, from 43.1 percent in July and 42.5 percent in June 2023.  The growing economic development in Ghana also gives government stability.</h4>
+    </div>
+
+&nbsp;
+    <div id="sources">
+        <h5>Sources:
+            “The World Factbook.” Cia.gov, https://www.cia.gov/the-world-factbook/. Accessed 17 Nov. 2023.
+            
+            Potter, Simeon, and David Crystal. “English Language.” Encyclopedia Britannica, 14 Nov. 2023.
+            
+            Denova, Rebecca. “Christianity.” World History Encyclopedia, 2022, https://www.worldhistory.org/christianity/.
+            
+            “Membership in International Organizations.” U.S. Embassy in Ghana, 28 Mar. 2017, https://gh.usembassy.gov/our-relationship/policy-history/membership-international-organizations/.
+            
+            “Folklore.” Ministry of Tourism, Arts & Culture (MoTAC) Ghana, https://www.motac.gov.gh/folklore/. Accessed 21 Nov. 2023.
+            
+            “Ghana - Culture, Traditions, Cuisine.” Encyclopedia Britannica.
+
+            Stability of the Ghanaian Economy Has Been Achieved and Confidence Restored Minister for Finance | Ministry of Finance | Ghana. 9 Oct. 2023, mofep.gov.gh/news-and-events/2023-10-09/Stability-of-the-ghanaian-economy-has-been-achieved-and-confidence-restored-minister-for-finance.
+            </h5>
+    </div>
+
+    <script>
+        const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+
+        if (entry.isIntersecting) {
+            entry.target.classList.add('show')
+        }
+
+        else{
+            entry.target.classList.remove('show')
+        }
+    });
+});
+const projects = document.querySelectorAll('.hidden')
+projects.forEach((el) => observer.observe(el));
+    </script>
+</body>
+</html>
